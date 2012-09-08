@@ -27,7 +27,7 @@ static BOOL timerAlive = NO; // timer status
 	[newBackButton release];
 	
 	todoTitle.text = todoTitlePreload;
-	Countdown = 10;	// for demo purposes
+	Countdown = 25 * 60;
 	
 	// create new timer
 	timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(ticktack) userInfo:nil repeats:YES];
