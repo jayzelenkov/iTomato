@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040FF0F211739FBB0082848C /* ArchiveDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FF0F111739FBB0082848C /* ArchiveDetailViewController.m */; };
+		041A4BD7116F20FC00D4CC35 /* TodoEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041A4BD6116F20FC00D4CC35 /* TodoEditingViewController.m */; };
+		042A313F116B62F900279887 /* TodoDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042A313E116B62F900279887 /* TodoDetailView.xib */; };
+		042A314E116B638500279887 /* TodoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042A314D116B638500279887 /* TodoDetailViewController.m */; };
+		04623213116F045F00D5F8DB /* AddTodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04623212116F045F00D5F8DB /* AddTodoViewController.m */; };
+		0462321A116F05D500D5F8DB /* EditTodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04623219116F05D500D5F8DB /* EditTodoViewController.m */; };
+		0462328C116F15B500D5F8DB /* TodoEditingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0462328B116F15B500D5F8DB /* TodoEditingView.xib */; };
+		0466AE5B116B5E3300D405B5 /* TodoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0466AE5A116B5E3300D405B5 /* TodoTableViewController.m */; };
+		0468E9E91173BE5F0023D096 /* TimerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0468E9E81173BE5F0023D096 /* TimerView.xib */; };
+		0468E9ED1173C2860023D096 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0468E9EC1173C2860023D096 /* TimerViewController.m */; };
+		047C90E9116E6B4000D8F97B /* ArchiveTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047C90E8116E6B4000D8F97B /* ArchiveTableViewController.m */; };
+		0496A78211772A680058357D /* todo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0496A78111772A680058357D /* todo.png */; };
+		0496A78411772A880058357D /* shoebox.png in Resources */ = {isa = PBXBuildFile; fileRef = 0496A78311772A880058357D /* shoebox.png */; };
+		0496A79111772E880058357D /* pomodoro-big-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0496A79011772E880058357D /* pomodoro-big-logo.png */; };
+		04D61B61116CC1B600B74C8A /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D61B60116CC1B600B74C8A /* Todo.m */; };
+		04D61B7F116CD00900B74C8A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D61B7E116CD00900B74C8A /* CoreData.framework */; };
+		04EA6EC1116E248100DE64DE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EA6EC0116E248100DE64DE /* icon.png */; };
+		04EA6EC5116E257F00DE64DE /* iTomato.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04EA6EC4116E257F00DE64DE /* iTomato.xcdatamodeld */; };
+		1D3623260D0F684500981E51 /* iTomatoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iTomatoAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		3F33EA771176359E00C6844B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3F33EA761176359E00C6844B /* Settings.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040FF0F011739FBB0082848C /* ArchiveDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchiveDetailViewController.h; sourceTree = "<group>"; };
+		040FF0F111739FBB0082848C /* ArchiveDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchiveDetailViewController.m; sourceTree = "<group>"; };
+		041A4BD5116F20FC00D4CC35 /* TodoEditingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TodoEditingViewController.h; path = Classes/TodoEditingViewController.h; sourceTree = "<group>"; };
+		041A4BD6116F20FC00D4CC35 /* TodoEditingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TodoEditingViewController.m; path = Classes/TodoEditingViewController.m; sourceTree = "<group>"; };
+		042A313E116B62F900279887 /* TodoDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoDetailView.xib; sourceTree = "<group>"; };
+		042A314C116B638500279887 /* TodoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TodoDetailViewController.h; path = Classes/TodoDetailViewController.h; sourceTree = "<group>"; };
+		042A314D116B638500279887 /* TodoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TodoDetailViewController.m; path = Classes/TodoDetailViewController.m; sourceTree = "<group>"; };
+		04623211116F045F00D5F8DB /* AddTodoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddTodoViewController.h; path = Classes/AddTodoViewController.h; sourceTree = "<group>"; };
+		04623212116F045F00D5F8DB /* AddTodoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddTodoViewController.m; path = Classes/AddTodoViewController.m; sourceTree = "<group>"; };
+		04623218116F05D500D5F8DB /* EditTodoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditTodoViewController.h; path = Classes/EditTodoViewController.h; sourceTree = "<group>"; };
+		04623219116F05D500D5F8DB /* EditTodoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditTodoViewController.m; path = Classes/EditTodoViewController.m; sourceTree = "<group>"; };
+		0462328B116F15B500D5F8DB /* TodoEditingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoEditingView.xib; sourceTree = "<group>"; };
+		0466AE59116B5E3300D405B5 /* TodoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TodoTableViewController.h; path = Classes/TodoTableViewController.h; sourceTree = "<group>"; };
+		0466AE5A116B5E3300D405B5 /* TodoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TodoTableViewController.m; path = Classes/TodoTableViewController.m; sourceTree = "<group>"; };
+		0468E9E81173BE5F0023D096 /* TimerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerView.xib; sourceTree = "<group>"; };
+		0468E9EB1173C2860023D096 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimerViewController.h; path = Classes/TimerViewController.h; sourceTree = "<group>"; };
+		0468E9EC1173C2860023D096 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimerViewController.m; path = Classes/TimerViewController.m; sourceTree = "<group>"; };
+		047C90E7116E6B4000D8F97B /* ArchiveTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArchiveTableViewController.h; sourceTree = "<group>"; };
+		047C90E8116E6B4000D8F97B /* ArchiveTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchiveTableViewController.m; sourceTree = "<group>"; };
+		0496A78111772A680058357D /* todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = todo.png; sourceTree = "<group>"; };
+		0496A78311772A880058357D /* shoebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoebox.png; sourceTree = "<group>"; };
+		0496A79011772E880058357D /* pomodoro-big-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pomodoro-big-logo.png"; sourceTree = "<group>"; };
+		04D61B5D116CC02600B74C8A /* iTomato.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = iTomato.xcdatamodel; sourceTree = "<group>"; };
+		04D61B5F116CC1B600B74C8A /* Todo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Todo.h; path = Classes/Todo.h; sourceTree = "<group>"; };
+		04D61B60116CC1B600B74C8A /* Todo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Todo.m; path = Classes/Todo.m; sourceTree = "<group>"; };
+		04D61B7E116CD00900B74C8A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		04EA6EC0116E248100DE64DE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		04EA6EC6116E257F00DE64DE /* iTomato 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iTomato 2.xcdatamodel"; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iTomatoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iTomatoAppDelegate.h; path = Classes/iTomatoAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iTomatoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iTomatoAppDelegate.m; path = Classes/iTomatoAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iTomato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTomato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* iTomato_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTomato_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F33EA761176359E00C6844B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iTomato-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iTomato-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				04D61B7F116CD00900B74C8A /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Archive Classes */ = {
+			isa = PBXGroup;
+			children = (
+				040FF0F011739FBB0082848C /* ArchiveDetailViewController.h */,
+				040FF0F111739FBB0082848C /* ArchiveDetailViewController.m */,
+				047C90E7116E6B4000D8F97B /* ArchiveTableViewController.h */,
+				047C90E8116E6B4000D8F97B /* ArchiveTableViewController.m */,
+			);
+			name = "Archive Classes";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iTomato.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* iTomato */ = {
+			isa = PBXGroup;
+			children = (
+				3FBE61FB117F7828008177AF /* Delegates */,
+				3FBE61FA117F780D008177AF /* Todo Classes */,
+				080E96DDFE201D6D7F000001 /* Archive Classes */,
+				3FBE61FC117F7851008177AF /* Editing Classes */,
+				3FBE61FD117F7870008177AF /* Timer Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				3FBE61FF117F7906008177AF /* Core Data */,
+				3FBE61FE117F78D2008177AF /* Views */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				3F33EA761176359E00C6844B /* Settings.bundle */,
+			);
+			name = iTomato;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* iTomato_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0496A79011772E880058357D /* pomodoro-big-logo.png */,
+				0496A78311772A880058357D /* shoebox.png */,
+				0496A78111772A680058357D /* todo.png */,
+				04EA6EC0116E248100DE64DE /* icon.png */,
+				8D1107310486CEB800E47090 /* iTomato-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				04D61B7E116CD00900B74C8A /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FBE61FA117F780D008177AF /* Todo Classes */ = {
+			isa = PBXGroup;
+			children = (
+				042A314C116B638500279887 /* TodoDetailViewController.h */,
+				042A314D116B638500279887 /* TodoDetailViewController.m */,
+				0466AE59116B5E3300D405B5 /* TodoTableViewController.h */,
+				0466AE5A116B5E3300D405B5 /* TodoTableViewController.m */,
+			);
+			name = "Todo Classes";
+			sourceTree = "<group>";
+		};
+		3FBE61FB117F7828008177AF /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* iTomatoAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iTomatoAppDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		3FBE61FC117F7851008177AF /* Editing Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04623211116F045F00D5F8DB /* AddTodoViewController.h */,
+				04623212116F045F00D5F8DB /* AddTodoViewController.m */,
+				04623218116F05D500D5F8DB /* EditTodoViewController.h */,
+				04623219116F05D500D5F8DB /* EditTodoViewController.m */,
+				041A4BD5116F20FC00D4CC35 /* TodoEditingViewController.h */,
+				041A4BD6116F20FC00D4CC35 /* TodoEditingViewController.m */,
+			);
+			name = "Editing Classes";
+			sourceTree = "<group>";
+		};
+		3FBE61FD117F7870008177AF /* Timer Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0468E9EB1173C2860023D096 /* TimerViewController.h */,
+				0468E9EC1173C2860023D096 /* TimerViewController.m */,
+			);
+			name = "Timer Classes";
+			sourceTree = "<group>";
+		};
+		3FBE61FE117F78D2008177AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				042A313E116B62F900279887 /* TodoDetailView.xib */,
+				0462328B116F15B500D5F8DB /* TodoEditingView.xib */,
+				0468E9E81173BE5F0023D096 /* TimerView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3FBE61FF117F7906008177AF /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				04D61B5F116CC1B600B74C8A /* Todo.h */,
+				04D61B60116CC1B600B74C8A /* Todo.m */,
+				04EA6EC4116E257F00DE64DE /* iTomato.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iTomato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iTomato" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTomato;
+			productName = iTomato;
+			productReference = 1D6058910D05DD3D006BFB54 /* iTomato.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iTomato" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* iTomato */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iTomato */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				042A313F116B62F900279887 /* TodoDetailView.xib in Resources */,
+				04EA6EC1116E248100DE64DE /* icon.png in Resources */,
+				0462328C116F15B500D5F8DB /* TodoEditingView.xib in Resources */,
+				0468E9E91173BE5F0023D096 /* TimerView.xib in Resources */,
+				3F33EA771176359E00C6844B /* Settings.bundle in Resources */,
+				0496A78211772A680058357D /* todo.png in Resources */,
+				0496A78411772A880058357D /* shoebox.png in Resources */,
+				0496A79111772E880058357D /* pomodoro-big-logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iTomatoAppDelegate.m in Sources */,
+				0466AE5B116B5E3300D405B5 /* TodoTableViewController.m in Sources */,
+				042A314E116B638500279887 /* TodoDetailViewController.m in Sources */,
+				04EA6EC5116E257F00DE64DE /* iTomato.xcdatamodeld in Sources */,
+				04D61B61116CC1B600B74C8A /* Todo.m in Sources */,
+				047C90E9116E6B4000D8F97B /* ArchiveTableViewController.m in Sources */,
+				04623213116F045F00D5F8DB /* AddTodoViewController.m in Sources */,
+				0462321A116F05D500D5F8DB /* EditTodoViewController.m in Sources */,
+				041A4BD7116F20FC00D4CC35 /* TodoEditingViewController.m in Sources */,
+				040FF0F211739FBB0082848C /* ArchiveDetailViewController.m in Sources */,
+				0468E9ED1173C2860023D096 /* TimerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iTomato_Prefix.pch;
+				INFOPLIST_FILE = "iTomato-Info.plist";
+				PRODUCT_NAME = iTomato;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iTomato_Prefix.pch;
+				INFOPLIST_FILE = "iTomato-Info.plist";
+				PRODUCT_NAME = iTomato;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iTomato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iTomato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04EA6EC4116E257F00DE64DE /* iTomato.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04D61B5D116CC02600B74C8A /* iTomato.xcdatamodel */,
+				04EA6EC6116E257F00DE64DE /* iTomato 2.xcdatamodel */,
+			);
+			currentVersion = 04EA6EC6116E257F00DE64DE /* iTomato 2.xcdatamodel */;
+			path = iTomato.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
